@@ -1,0 +1,44 @@
+@media (max-width: 992px) {
+    header {
+        flex-wrap: wrap;
+    }
+    .apresentacao h2{
+        text-align: center;
+        font-size: 45px;
+    }
+
+    .apresentacao p {
+        font-size: 20px;
+    }
+
+    main .image {
+        display: none;
+    }
+
+    .hero footer {
+        display: none;
+    }
+
+    #servicos .container .info-servico h2{
+        font-size: 45px;
+        text-align: center;
+    }
+    #servicos .container .info-servico p {
+        font-size: 20px;
+    }
+
+    #sobre .perfis{
+        display: none;
+    }
+    
+    #sobre .sobre-nos h2 {
+        font-size: 45px;
+        text-align: center;
+    }
+}
+
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 768px) { 
+
+}

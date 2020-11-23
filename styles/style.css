@@ -1,0 +1,205 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins";
+  font-weight: 400;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #fbfbfb;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hero header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ffff;
+  padding: 25px 0;
+  width: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.03);
+}
+
+.hero .menu {
+  list-style: none;
+}
+
+.hero .menu li {
+  display: inline-block;
+  margin-left: 25px;
+}
+.hero .menu a {
+  color: #1a2028;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.hero main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 100px;
+}
+
+.apresentacao {
+  width: 600px;
+}
+
+.apresentacao h2 {
+  font-weight: 500;
+  font-size: 60px;
+  margin-bottom: 30px;
+}
+
+.apresentacao p {
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.apresentacao .buttons {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.apresentacao button {
+  color: #ffff;
+  font-size: 20px;
+  width: 200px;
+  height: 60px;
+  margin: 0 20px 20px 0;
+  border: 0px;
+  border-radius: 3px;
+  background-color: #6477b6;
+}
+
+
+
+.apresentacao button:last-child {
+  color: #000;
+  background-color: #ffff;
+  border: 0.5px solid #1a2028;
+}
+
+.apresentacao button:hover {
+  transition: 0.4s;
+  opacity: 0.7;
+}
+
+.hero footer {
+  padding: 0 100px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.hero footer img {
+  width: 160px;
+}
+
+#servicos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 100px;
+  scroll-behavior: smooth;
+}
+
+#servicos .info-servico {
+  margin-bottom: 50px;
+}
+
+#servicos .info-servico h2 {
+  font-size: 55px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+#servicos .info-servico p {
+  font-size: 20px;
+}
+
+#servicos .cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+#servicos .cards .card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 240px;
+  height: 220px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 30px;
+  justify-content: space-between;
+  background-color: #f2f5ff;
+}
+
+#servicos .cards .card img {
+  width: 20px;
+}
+
+#servicos .cards .card {
+  color: #1a2028;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 3%;
+}
+#servicos button {
+  width: 310px;
+  height: 60px;
+  border: 0px;
+  border-radius: 3px;
+  background-color: #6477b6;
+}
+
+#servicos button:hover {
+  opacity: 0.7;
+  transition: 0.4s;
+}
+
+#servicos button a {
+  color: #fff;
+  font-size: 20px;
+}
+
+#sobre {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 100px;
+  scroll-behavior: smooth;
+}
+
+#sobre .perfis {
+  margin-bottom: 40px;
+}
+
+#sobre .sobre-nos h2 {
+  font-weight: 400;
+  font-size: 55px;
+  margin-bottom: 50px;
+}
+
+#sobre .sobre-nos p {
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+#sobre .sobre-nos a {
+  font-size: 20px;
+  color: #6477b6;
+}
