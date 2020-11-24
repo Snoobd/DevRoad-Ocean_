@@ -2,14 +2,13 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: "Poppins";
-  font-weight: 400;
   scroll-behavior: smooth;
 }
 
 body {
+  font-family: "Poppins";
+  font-weight: 400;
   background-color: #fbfbfb;
-  scroll-behavior: smooth;
 }
 
 a {
@@ -21,7 +20,7 @@ a {
   justify-content: space-around;
   align-items: center;
   background-color: #ffff;
-  padding: 25px 0;
+  height: 80px;
   width: 100%;
   border-bottom: 1px solid rgba(0, 0, 0, 0.03);
 }
@@ -67,8 +66,6 @@ a {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  align-items: center;
-  justify-content: center;
 }
 
 .apresentacao button {
@@ -186,6 +183,10 @@ a {
 
 #sobre .perfis {
   margin-bottom: 40px;
+}
+
+#sobre .sobre-nos {
+  width: 600px;
 }
 
 #sobre .sobre-nos h2 {

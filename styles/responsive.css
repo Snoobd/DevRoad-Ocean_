@@ -2,6 +2,15 @@
     header {
         flex-wrap: wrap;
     }
+    main .image {
+        display: none;
+    }
+
+    .hero .menu li {
+        display: inline-block;
+        margin-left: 20px;
+    }
+
     .apresentacao h2{
         text-align: center;
         font-size: 45px;
@@ -11,8 +20,12 @@
         font-size: 20px;
     }
 
-    main .image {
-        display: none;
+    .apresentacao .buttons {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
     }
 
     .hero footer {
@@ -35,10 +48,4 @@
         font-size: 45px;
         text-align: center;
     }
-}
-
-
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: 768px) { 
-
 }
