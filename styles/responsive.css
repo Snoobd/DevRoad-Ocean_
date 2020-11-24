@@ -45,6 +45,7 @@
     }
     
     #sobre .sobre-nos h2 {
+        width: 300px; 
         font-size: 45px;
         text-align: center;
     }
